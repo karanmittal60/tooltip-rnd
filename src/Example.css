@@ -1,0 +1,33 @@
+:root {
+    --main-color: #2594dc;
+    --main-txt-color: #fff;
+}
+i{
+    cursor: pointer;
+}
+
+
+.tooltip-container{
+    background-color: var(--main-color);
+    font-family: monospace;
+    padding: 2px 10px;
+    color: var(--main-txt-color);
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    /*transform: translate3d(144px, 38px, 0px);*/
+    /*will-change: transform;*/
+    max-width: 250px;
+}
+
+.triangle-up {
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--main-color);
+}
